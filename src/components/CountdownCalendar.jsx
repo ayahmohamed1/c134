@@ -154,25 +154,14 @@ export default function CountdownCalendar({ eventDate, venue, couple }) {
           {eventDate.year || '2026'}
         </div>
 
-        {/* Schedule Highlights: WELCOME & RECEPTION Columns */}
-        <div className="grid grid-cols-2 gap-8 sm:gap-12 my-3 text-center">
-          <div>
-            <p className="font-serif text-xs sm:text-sm uppercase tracking-[0.22em] text-[#A8586E] font-medium mb-1">
-              WELCOME
-            </p>
-            <p className="font-serif text-sm sm:text-base text-[#A8586E] font-normal tracking-wide">
-              {eventDate.welcomeTime || '7:00 PM'}
-            </p>
-          </div>
-
-          <div>
-            <p className="font-serif text-xs sm:text-sm uppercase tracking-[0.22em] text-[#A8586E] font-medium mb-1">
-              RECEPTION
-            </p>
-            <p className="font-serif text-sm sm:text-base text-[#A8586E] font-normal tracking-wide">
-              {eventDate.receptionTime || '6:00 PM'}
-            </p>
-          </div>
+        {/* Schedule Highlight */}
+        <div className="my-3 text-center">
+          <p className="font-serif text-xs sm:text-sm uppercase tracking-[0.22em] text-[#A8586E] font-medium mb-1">
+            WELCOME
+          </p>
+          <p className="font-serif text-sm sm:text-base text-[#A8586E] font-normal tracking-wide">
+            {eventDate.welcomeTime || '7:00 PM'}
+          </p>
         </div>
 
         {/* ENLARGED PROMINENT COUNTDOWN SECTION */}

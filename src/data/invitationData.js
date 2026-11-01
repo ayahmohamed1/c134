@@ -29,7 +29,6 @@ export const invitationConfig = {
     year: "2027",
     time: "7:00 PM",
     welcomeTime: "7:00 PM",
-    receptionTime: "8:00 PM",
     targetIso: "2027-01-20T19:00:00",
     monthIndex: 0, // 0-based: January = 0
     highlightDay: 20,
@@ -83,4 +82,3 @@ export const invitationConfig = {
     },
   ],
 };
-
